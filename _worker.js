@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
     if (url.pathname.startsWith('/')) {
       // 设置目标源站为 HTTP 协议 + 指定端口
-      url.hostname = "cc.37o.cc"; // 源站域名或 IP
+      url.hostname = "ltjm.zapi.hidns.co"; // 源站域名或 IP
       url.protocol = "http:";       // 强制使用 HTTP
       url.port = 81;              // 源站的 HTTP 端口
 
